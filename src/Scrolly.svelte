@@ -33,9 +33,17 @@
     }
   }
 
+  $: if (index == 5) {
+    day = 0;
+  }
+
   $: if (index >= 6) {
     clearInterval(timer);
     day = data[7].length;
+  }
+
+  $: if (index >= 7) {
+    isStarted = false;
   }
 </script>
 <style>
@@ -80,6 +88,12 @@ section:nth-of-type(6) {
   font-family: "Fira Sans", sans-serif;
   font-size: 0.8rem;
 }
+img {
+  margin: 1.5rem 0 0 0;
+}
+h1 {
+  margin: 1rem auto;
+}
 .table-bar {
   padding: 0.3em 0.5em;
   background: rgb(200, 200, 200, 0.5);
@@ -92,6 +106,8 @@ section:nth-of-type(6) {
 .caption {
   font-size: 0.6rem;
   font-style: italic;
+  margin: 0;
+  color: var(--font-gray);
 }
 button {
   cursor: pointer;
@@ -110,23 +126,21 @@ button {
         On February 24, Russia launched its invasion of Ukraine.
       </p>
       <p>
-        Ukrainians immediately started fleeing the country. As of April 20, more than five million refugees have left for neighboring countries, according to the <a href="https://data2.unhcr.org/en/situations/ukraine" target="_blank">United Nations refugee agency</a>. Further two million people are reported internally displaced.
-      </p>
-      <p class="caption">
-        Photo: A man carries a baby as people struggle on stairways after a last minute change of the departure platform for a Lviv bound train in Kyiv, Ukraine, Feb. 28, 2022. (AP Photo/Vadim Ghirda)
+        Ukrainians immediately started fleeing the country. As of April 20, more than five million refugees have left for neighboring countries, according to the <a href="https://data2.unhcr.org/en/situations/ukraine" target="_blank">United Nations refugee agency</a>.
       </p>
     </div>
   </section>
   <section>
     <div class="section" data-section-id="2">
+      <img src="./photos/0.jpeg" alt="A man carries a baby as people struggle on stairways after a last minute change of the departure platform for a Lviv bound train in Kyiv, Ukraine, Feb. 28, 2022. (AP/Vadim Ghirda)" width="100%">
+      <p class="caption">
+        Photo: A man carries a baby as people struggle on stairways after a last minute change of the departure platform for a Lviv bound train in Kyiv, Ukraine, Feb. 28, 2022. (AP Photo/Vadim Ghirda)
+      </p>
       <h1>
-        Shedding tears of Ukrainian refugees
+        Ukrainian refugee crisis
       </h1>
       <p>
         By Yuriko Schumacher
-      </p>
-      <p class="caption">
-        A woman cries in the small basement of a house crowded with people seeking shelter from Russian airstrikes and shelling in Gorenka, outside the capital Kyiv, Ukraine, March 2, 2022. (AP Photo/Vadim Ghirda)
       </p>
     </div>
   </section>

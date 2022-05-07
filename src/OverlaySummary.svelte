@@ -12,8 +12,8 @@
 
   let position, cubeWidth, isCardVisible;
   let eventDescription = 'On April 12, Putin said Russia "had no other choice" but to launch what he called a "special military operation" in Ukraine.';
-  const days = [0, 4, 6, 15, 20, 28, 37, 47];
-  let opacity = index == 5 || index == 6 ? 1 : 0;
+  const days = [0, 4, 6, 12, 15, 20, 28, 37, 47];
+  $: opacity = index == 6 || isStarted ? 1 : 0;
 
   let totalRefugees = spring({ value: 0 },
     {

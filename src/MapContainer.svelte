@@ -82,9 +82,7 @@
     {/if}
     <div class="overlay-container {overlayClass}">
       <MapOverlay data={[centroidsD, borderCrossingsD, groupedD]} map={mapComponent} {width} {height} {index} {isStarted} {day} />
-      {#if isStarted || index == 6}
-        <OverlaySummary {width} {height} {index} {day} {totalRefugeesD} {isStarted} {eventsD} />
-      {/if}
+      <OverlaySummary {width} {height} {index} {day} {totalRefugeesD} {isStarted} {eventsD} />
     </div>
   </Map>
 </div>
