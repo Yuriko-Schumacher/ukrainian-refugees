@@ -91,8 +91,8 @@ section:nth-of-type(6) {
 img {
   margin: 1.5rem 0 0 0;
 }
-h1 {
-  margin: 1rem auto;
+h2 {
+  margin: 1.5rem auto;
 }
 .table-bar {
   padding: 0.3em 0.5em;
@@ -136,9 +136,9 @@ button {
       <p class="caption">
         Photo: A man carries a baby as people struggle on stairways after a last minute change of the departure platform for a Lviv bound train in Kyiv, Ukraine, Feb. 28, 2022. (AP Photo/Vadim Ghirda)
       </p>
-      <h1>
+      <h2>
         Ukrainian refugee crisis
-      </h1>
+      </h2>
       <p>
         By Yuriko Schumacher
       </p>
@@ -157,7 +157,7 @@ button {
         There are a total of 67 border crossing points.
       </p>
       <p>
-        Russia has the most border crossings: 19 points along about 1230 miles of its border with Ukraine. 
+        Russia has the most border crossings: 19 points along about 1,230 miles of its border with Ukraine. 
       </p>
     </div>
   </section>
