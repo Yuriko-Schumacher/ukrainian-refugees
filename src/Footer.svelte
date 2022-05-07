@@ -35,6 +35,6 @@
         <strong>three.js and shaders:</strong> <a href="https://threejs-journey.com/" target="_blank">three.js journey</a>
       </li>
     </ul>
-    <p>Special thanks to <a href="https://camd.northeastern.edu/faculty/todd-linkner/" target="_blank">Prof. Todd Linker</a> for his valuable feedback!</p>
+    <p>Special thanks to <a href="https://camd.northeastern.edu/faculty/todd-linkner/" target="_blank">Prof. Todd Linkner</a> for his valuable feedback!</p>
   </div>
 </div>
