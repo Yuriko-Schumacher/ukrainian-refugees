@@ -1,14 +1,14 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
 
-  import MapContainer from './MapContainer.svelte'
-  import CanvasContainer from './CanvasContainer.svelte';
+  import MapContainer from './MapContainer.svelte';
+  import Footer from './Footer.svelte';
 
   export let data;
   export let width;
 
   let index = 0;
-  let offset, progress;
+  let offset;
   let day = 0;
   let isStarted = false;
   let isPaused = false;
@@ -160,7 +160,6 @@ button {
   <section class="{lastSectionClass}">
     <div class="section" data-section-id="6">
       <p>
-        <!-- More than 2.5 million refugees went to Poland. That's over 50% of all refugees fleed from Ukrain. Belarus attracted only 0.4%, just above 20,000 refugees. -->
         See how the Ukrainians fled the country after Russian invasion.
       </p>
       <p>
@@ -185,7 +184,7 @@ button {
   <section>
     <div class="section" data-section-id="9">
       <p>
-        Five million people -- that's larger than the second biggest U.S. city.
+        Five million people -- that's larger than the population of the second biggest U.S. city.
       </p>
       <div class="table">
         <strong>Five largest U.S. cities</strong>
@@ -211,3 +210,4 @@ button {
   </section>
 </div>
 </Scroller>
+<Footer />

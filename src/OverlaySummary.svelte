@@ -13,6 +13,7 @@
   let position, cubeWidth, isCardVisible;
   let eventDescription = 'On April 12, Putin said Russia "had no other choice" but to launch what he called a "special military operation" in Ukraine.';
   const days = [0, 4, 6, 15, 20, 28, 37, 47];
+  let opacity = index == 5 || index == 6 ? 1 : 0;
 
   let totalRefugees = spring({ value: 0 },
     {
@@ -71,7 +72,7 @@
   div.card {
     margin-top: 10px;
     border-radius: 3.5px;
-    background: rgb(40, 40, 40, 0.8);
+    background: rgba(40, 40, 40, 0.8);
     padding: 1em 0.8em;
     position: relative;
     font-size: 0.8rem;
@@ -85,7 +86,7 @@
   }
 </style>
 
-<div class="wrapper" style="width: {cubeWidth}px; height: {cubeWidth}px; left: {position.x}px; top: {position.y}px">
+<div class="wrapper" style="width: {cubeWidth}px; height: {cubeWidth}px; left: {position.x}px; top: {position.y}px; opacity: {opacity}">
   <h2>{getDateFromDay(day)}</h2>
   <div class="outer">
     <div class="inner" style="width: {$barWidth.value}%"></div>
