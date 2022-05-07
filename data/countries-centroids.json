@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "ukraine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.5087890625, 49.439556958940855]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "poland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.3798828125, 52.214338608258196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "slovakia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.5556640625, 48.80686346108517]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "hungary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.4677734375, 47.15984001304432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "romania"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.048828125, 46.042735653846506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "moldova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.6083984375, 47.249406957888446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "country": "russia" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.12207031249994, 53.51418452077113]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "belarus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0810546875, 53.61857936489517]
+      }
+    }
+  ]
+}

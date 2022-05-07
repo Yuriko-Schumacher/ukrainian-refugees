@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-black: #000000;
+  --font-white: #e1dede;
+  --font-gray: #aaaaaa;
+  --accent-blue: rgb(128, 187, 255);
+  --accent-blue-dark: #334b66;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: var(--font-white);
+  line-height: 1.4;
+  background: var(--bg-black);
+}
+* {
+  box-sizing: border-box;
+}
+a:link,
+a:visited {
+  color: var(--accent-blue);
+}
+a:hover {
+  color: var(--accent-blue-dark);
+  transition: all 0.4s ease;
+}
+h1,
+h2 {
+  font-family: "Fira Sans", sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+}
+p {
+  margin: 1.5rem 0;
+}
+text {
+  fill: var(--font-white);
+  font-family: "Fira Sans", sans-serif;
+}
