@@ -106,7 +106,7 @@
        */
       material = new THREE.ShaderMaterial({
         depthWrite: false,
-        blending: THREE.AdditiveBlending,
+        blending: THREE.NoBlending,
         vertexColors: true,
         vertexShader,
         fragmentShader,
